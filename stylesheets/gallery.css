@@ -1,12 +1,10 @@
 @font-face{
 font-family: PierSansRegular;
 src:
-    url('../fonts/pier-regular.svg'),
-    url('../fonts/pier-regular.woff'),
     url('../fonts/pier-regular.otf'),
     url('../fonts/pier-regular.eot');
 }
-
+/* CSS ANIMATIONS by Larry Geams Parangan from CodePen.io*/
 *, *::before, *::after{
   -moz-box-sizing: border-box;
        box-sizing: border-box;
@@ -26,19 +24,21 @@ html, body{
 }
 
 .container{
-  width: 80%;
-  margin: auto;
   display: block;
-  text-align: center;
-}
-
-.hero{
   width: 100%;
-  height: 40%;
-  background: #3498db;
-  display: table;
-}
+  margin: auto;
+  height:2000px;
 
+}
+.gallery-content{
+  height: 1000px;
+  color: white;
+
+
+}
+.gallery-content img {
+  margin: auto;
+}
 h1{
   color: #2c3e50;
   text-align: center;
@@ -60,13 +60,16 @@ figure{
   vertical-align: top;
   border: 3px solid #fff;
   box-shadow: 0 0 3px #ddd;
-  margin: 0.5em;
+  margin: 1em;
+
 }
 
 figcaption{
   position: absolute;
-  left: 0; right: 0;
-  top: 0; bottom: 0;
+  left: 0; 
+  right: 0;
+  top: 0; 
+  bottom: 0;
   text-align: center;
   font-weight: bold;
   width: 100%;
@@ -85,9 +88,9 @@ figcaption div{
 }
 
 figcaption div:after{
-  position: absolute;
-  content: "";
-  left: 0; right: 0;
+  position: relative;
+  left: 0; 
+  right: 0;
   bottom: 40%;
   text-align: center;
   margin: auto;
@@ -102,6 +105,7 @@ figure img{
   -webkit-transform: scale3d(1, 1, 1);
           transform: scale3d(1, 1, 1);
   margin: auto;
+  width:100%;
 }
 
 figure:hover figcaption{
@@ -120,4 +124,12 @@ figcaption:hover div:after{
 figure:hover img{
   -webkit-transform: scale3d(1.2, 1.2, 1);
           transform: scale3d(1.2, 1.2, 1);
+}
+
+@media(min-width: 0px) and (max-width: 410px){
+  figure {
+      margin: auto;
+      width: 100%;
+      height: auto;
+  }
 }
