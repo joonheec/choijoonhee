@@ -1,0 +1,28 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en-us">
+	<head>
+		<title>Calculator</title>
+		<link rel="stylesheet" type="text/css" href= "../css/style.css">
+	</head>
+	<body>
+		<h2>Calculator</h2>
+		<h3>First String: 
+			<input id = "input1" type = "text" ></input>
+		</h3>
+		<br>
+		<h3>Second String or Number: 
+			<input id = "input2" type = "text" name = "Second String or Number"></input>
+		</h3>
+		<input type="button" onclick="addValues()" value="+">
+		<input type="button" onclick="multValues()" value="*">
+		<input type="button" onclick="clearValues()" value="CLEAR">
+		<script src = "../js/calculatorjScript.js" 
+				type="application/javascript">
+		</script>
+		<h3>Output: 
+			<span id ="output"></span>
+		</h3>
+	</body>
+</html>
