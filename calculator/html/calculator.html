@@ -8,21 +8,23 @@
 	</head>
 	<body>
 		<h2>Calculator</h2>
-		<h3>First String: 
+		<h3>First String or Number: 
 			<input id = "input1" type = "text" ></input>
 		</h3>
-		<br>
 		<h3>Second String or Number: 
 			<input id = "input2" type = "text" name = "Second String or Number"></input>
 		</h3>
-		<input type="button" onclick="addValues()" value="+">
-		<input type="button" onclick="multValues()" value="*">
-		<input type="button" onclick="clearValues()" value="CLEAR">
+		<div id = "operatorContainer">
+			<input type="button" onclick="addValues()" value="+">
+			<input type="button" onclick="multValues()" value="*">
+			<input type="button" onclick="clearValues()" value="CLEAR">
+		</div>
+		<br>
+		<h3 id = "outboxContainer">Output: 
+			<span id ="output"></span>
+		</h3>
 		<script src = "../js/calculatorjScript.js" 
 				type="application/javascript">
 		</script>
-		<h3>Output: 
-			<span id ="output"></span>
-		</h3>
 	</body>
 </html>
