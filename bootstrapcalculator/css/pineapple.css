@@ -1,0 +1,25 @@
+@font-face{
+font-family: PierSansRegular;
+src:
+		url('../fonts/pier-regular.otf'),
+		url('../fonts/pier-regular.eot');
+}
+.alert{
+	display:none;
+}
+h2,h3{
+	font-family: PierSansRegular;
+	text-align: center;
+}
+#operatorContainer{
+	display:flex;
+	justify-content:center;
+}
+#input1,#input2{
+	display:inline-block;
+	width: 50%;	
+}
+#output{
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
