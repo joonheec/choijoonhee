@@ -60,6 +60,7 @@ function multValues(){
 function clearValues(){
 	var firstInput = document.getElementById("input1").value;
 	var secondInput = document.getElementById("input2").value;
+	$(".form-control").val("");
 	$("#output").html('');
 	$(".alert").css("display","none");
 }
