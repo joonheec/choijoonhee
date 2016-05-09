@@ -139,7 +139,9 @@ a:visited,a:hover,a,a:link{
 }
 
 
-
+section{
+  overflow: hidden;
+}
 .glyphicon-chevron-down{
   opacity: 0;
 }
@@ -243,6 +245,7 @@ a:visited,a:hover,a,a:link{
     position: relative;
     text-align: center;
 }
+/*footer*/
 #footer-credit{
   font-family: Proxima;
   text-align: center;
@@ -251,6 +254,13 @@ a:visited,a:hover,a,a:link{
   background-color: #091618;
   letter-spacing: 0.075em;
   padding-top: 3em;
+}
+.fb-link{
+  padding-bottom: 1em;
+
+}
+.fb-link:visited{
+  text-decoration: none;
 }
 
 /* 5/7/16 */
