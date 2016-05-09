@@ -1,0 +1,31 @@
+.active-house{
+	font-family: Galaxie;
+	text-align: center;
+	font-size: 35px;
+}
+.class-wrapper{
+	padding-top: 2em;
+}
+.cross-class{
+	display: inline;
+	padding-top: 3em;	
+	border-bottom: solid 2px #fff;
+ 	border-color:rgba(0, 0, 0, 0.125);
+}
+.class-pictures{
+	display: block;
+	margin: auto;
+	width: 50%;
+	padding-top: 1em;
+}
+.bro{
+	display: inline-block;
+	box-sizing: border-box
+	padding: 0px 10px;
+}
+.bro img{
+	width: 200px;
+	padding: 10px 10px;
+	border: 3px solid white;
+	margin-top:10px;
+}
