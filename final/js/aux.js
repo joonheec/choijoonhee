@@ -1,7 +1,6 @@
 
 $("document").ready(function(){
-	$('.top-cover').parallax({imageSrc: '../img/rush.jpg'});
-  $('#footer-credit').parallax({imageSrc: '../img/rush.jpg'});
+  $('.top-cover').parallax({imageSrc:'../img/rush.jpg'});
 })
 
 // HAMBURGLERv2
