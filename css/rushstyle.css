@@ -1,0 +1,10 @@
+.rush-content{
+	display: block;
+	width: 100%;
+	height: 100vh;
+}
+.rush{
+	line-height: normal;
+	vertical-align: middle;
+	display: inline-block;
+}
