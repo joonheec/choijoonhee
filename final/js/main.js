@@ -122,7 +122,7 @@ $(window).scroll(function() {
        wH = $(window).height(),
        wS = $(this).scrollTop();
    if (wS > (hT+hH-wH)){
-       $('#container3').animate({opacity:1},2000);
+       $('#container3').animate({opacity:1},1500);
    }
 });
 $(window).scroll(function() {
@@ -131,7 +131,7 @@ $(window).scroll(function() {
        wH = $(window).height(),
        wS = $(this).scrollTop();
    if (wS > (hT+hH-wH)){
-       $('#container4').animate({opacity:1},2000);
+       $('#container4').animate({opacity:1},1500);
    }
 });
 $(window).scroll(function() {
@@ -140,7 +140,7 @@ $(window).scroll(function() {
        wH = $(window).height(),
        wS = $(this).scrollTop();
    if (wS > (hT+hH-wH)){
-       $('#container5').animate({opacity:1},2000);
+       $('#container5').animate({opacity:1},1500);
    }
 });
 $(window).scroll(function() {
@@ -149,6 +149,6 @@ $(window).scroll(function() {
        wH = $(window).height(),
        wS = $(this).scrollTop();
    if (wS > (hT+hH-wH)){
-       $('#container6').animate({opacity:1},2000);
+       $('#container6').animate({opacity:1},1500);
    }
 });
