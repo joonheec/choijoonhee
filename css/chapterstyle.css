@@ -1,0 +1,80 @@
+@font-face{
+  font-family: Galaxie;
+  src: url("../fonts/Galaxie.otf");
+}
+@font-face{
+  font-family: MoonLight;
+  src: url("../fonts/MoonLight.otf");
+}
+
+.top-cover{
+	width: 100%;
+	height: calc(60vh - 51px);
+  	line-height: 60vh;
+  	vertical-align: middle;
+  	display: inline-block;
+ 	text-align: center;
+}
+
+.cover-text{
+  font-family: Galaxie;
+  color: white;
+  font-size: 35px;
+
+}
+.main-container{
+	background-color: ;
+}
+main {
+	padding: 0px 10px;
+	padding-bottom: 50px;
+	background-color: #FFE8E8;
+
+}
+#footer-credit{
+  font-family: Proxima;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  color: white;
+  background-color: #091618;
+  letter-spacing: 0.075em;
+  padding-top: 0px;
+}
+.active,.associate-chapters,.colonies,.inactive{
+	text-align: center;
+	padding-top: 2.5em;
+}
+
+.chapter-title{
+	display: inline;
+	font-family: MoonLight;
+	font-size: 40px;
+	padding-top: 2em;
+	border-bottom: solid 2px #fff;
+  	border-color:rgba(0, 0, 0, 0.125);
+}
+
+.chapter{
+	font-family: MoonLight;
+	padding-top: 0.5em;
+	font-size: 
+}
+.university{
+	display: inline;
+	margin-right: 5px;
+	margin-left: 5px;
+	border-bottom: solid 2px #fff;
+  	border-color:rgba(0, 0, 0, 0.125);
+}
+
+@media screen and (max-width: 520px) {
+	.chapter-title{
+		font-size: 30px;
+	}
+	.top-cover{
+		width: 100%;
+		height: calc(40vh - 51px);
+	  	line-height: 40vh;
+	}
+}
